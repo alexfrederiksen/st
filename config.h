@@ -5,10 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+//static char *font = "JetBrains Mono:pixelsize=14:antialias=false:autohint=true";
+static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=16:antialias=true:autohint=true";
+//static char *font = "Hack:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
-float alpha = 0.9;
+float alpha = 0.8;
 
 /*
  * What program is execed by st depends of these precedence rules:
